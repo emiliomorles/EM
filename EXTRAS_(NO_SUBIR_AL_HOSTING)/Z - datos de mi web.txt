@@ -1,0 +1,57 @@
+VG0f:D:ymyX$v4r
+
+Hostinger Colombia <francisco@hostinger.com>
+9:33 p. m. (Hace 11 minutos.)
+
+para mí 
+Estimado Emilio José Morles García,
+
+¡Gracias por tu orden con nosotros! Tu cuenta de hosting ha sido configurada y este correo contiene toda la información que necesitas para comenzar a usar tu cuenta.
+
+Si has solicitado un nombre de dominio durante tu registro, por favor ten en mente que no será visible por Internet instantáneamente. Este proceso es llamado propagación y puede tomar hasta 48 horas. Tu sitio y correo no funcionarán hasta que el dominio se haya propagado.
+
+Information de la cuenta nueva
+
+Paquete de Hosting: Gratis
+Dominio: emiliomorles.16mb.com
+Dirección IP: 31.170.165.16
+
+Detalles de acceso al Panel de Control
+
+Dirección de Correo: profemiliomorles@gmail.com
+Contraseña: ••••••••••
+
+URL del Panel de Control: http://cpanel.hostinger.co
+
+Información del Servidor
+
+Nombre del Servidor: server17.hostinger.co
+IP del Servidor: 31.170.164.26
+
+Si estás usando un dominio existente con tu nueva cuenta de hosting, necesitarás actualizar los nameservers para que apunten a los que se listan abajo.
+
+Nameserver 1: ns1.hostinger.co 31.170.163.241
+Nameserver 2: ns2.hostinger.co 31.220.23.1
+Nameserver 3: ns3.hostinger.co 173.192.183.247
+Nameserver 4: ns4.hostinger.co 31.170.164.249
+
+Cargando tu Sitio Web
+
+Puedes usar una de las direcciones indicadas abajo para administrar tu sitio:
+
+Nombre de Host FTP Temporal: 31.170.165.16
+Nombre de Host FTP completo: ftp.emiliomorles.16mb.com
+Nombre de Usuario FTP: u307955282
+Contraseña FTP: VG0f:D:ymyX$v4r
+
+¡Debes cargar tus archivos a la carpeta public_html !
+
+Configuración de Correo
+
+Para las cuentas de correo que configures, debes usar los siguientes detalles de conexión en tu programa de correo:
+
+Dirección de Host POP3: mx1.hostinger.co
+Nombre de Usuario: La dirección de correo que vas a revisar
+Contraseña: La que especificaste al crear la cuenta de correo
+
+Gracias por escogernos.

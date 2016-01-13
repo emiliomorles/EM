@@ -1,0 +1,8 @@
+1. Links nuevos de certificados sololearn
+2. Arreglar colores (Buscar 3 o 4 colores de MI PLANTILLA GENERAL)
+3. Centrar h1 curriculo
+4. Fondo para CURRICULO.
+5. botones calidad (imagenes)
+6. Icono y Titulo arreglar Jqueries
+8. Poner efecto1.JPG el background o en algun <div>
+9. ARREGLAR MENU MEDIANO Y PEQUEÑO QUE LOS DAÑÉ <<<<<-----
