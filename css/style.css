@@ -63,6 +63,10 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     border-top: 3px;
 }
 
+a:hover {
+    background-color: rgb(56, 124, 59)
+}
+
 /*Menu de navegacion*/
 #menu {
     height: 40px;
@@ -127,34 +131,16 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 /*imagenes*/
-#imagenes {
-    /*border-radius:20%;*/
-    width: 200px;
+#D-imag {
+    width: 400px;
     height: 40px;
-    margin: 0 auto;
-    color: #fff;
-    padding-top:0;
-    line-height: 80%;
+    margin: auto;
     position: static;
+    opacity: 0.7;
 }
 
-#tituloimag2 {
-    width: 200px;
-    height: 40px;
-    margin: 0 auto;
-    color: #fff;
-    padding-top:0;
-    line-height: 80%;
-    position: static;
-}
-
-#tituloimag {
-    width: 600px;
-    opacity:0.5;
-    text-align: center;
-    font-weight: bold;
-    height: auto;
-    line-height: 80%;
+#D-imag:hover {
+    opacity: 1.0;
 }
 
 /*articulos*/
@@ -179,34 +165,14 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     padding: 15px;
 }
 
-/*Portfolio*/
-#filters {
-    padding: 0;
-    list-style: none;
-}
-
-.filter {
-    display: block;
-    padding: 5px 20px;
-    text-decoration: none;
-    color: #666;
-    cursor: pointer;
-}
-
-.filter.active{
-    background-color:  #e95a44;
-    color:#fff;
-}
-
-
 /*Foter*/
 footer {
     height: 40px;
     background-color: #000000;
     margin-top: 200px;
-    color: #000000;
+    color: rgb(255, 255, 255);
     font-weight: 800;
-    font-size: 1.3em;
+    font-size: 25px;
     letter-spacing: 2px;
     text-align: center;
     padding: 40px;
@@ -216,9 +182,6 @@ footer {
 Media Queries de CSS3
 *******************************************************************************************************************************/
 @media screen and (max-width: 480px) {
-    /*body{
-        background: rgb(255, 0, 0);
-    }*/
 
     .container {
         width:100%;
@@ -290,34 +253,16 @@ Media Queries de CSS3
         float:left;
     }
 
-    }
-
-    #imagenes {
-        opacity:0.5;
-        width: auto;
-        height: 200px;
-
-
-    }
-
-    footer {
-        height: 20px;
-        background-color: #000000;
-        margin-top:60px;
-        color: #fff;
-        font-weight: 800;
-        font-size: 1em;
-        letter-spacing: 2px;
-        text-align: center;
-        padding: 8px;
+    #D-imag {
+        width: 250px;
+        height: 40px;
+        margin: auto;
+        position: static;
     }
 
 }
 
 @media screen and (min-width: 481px) and (max-width:767px) {
-    /*body{
-        background: rgb(255, 0, 0);
-    }*/
 
     .container {
         width:90%;
@@ -357,12 +302,16 @@ Media Queries de CSS3
         width:50%;
     }
 
+    #D-imag {
+        width: 300px;
+        height: 40px;
+        margin: auto;
+        position: static;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
-    /*body{
-        background: rgb(255, 64, 0);
-    }*/
 
     .container {
         width: 90%;
@@ -377,13 +326,11 @@ Media Queries de CSS3
         width: 44%;
     }
 
-}
-
-/*Media Query de CC3 para Retina
-
-@media only screen and (webkit-min-device-pixel-ratio: 2) {
-    #imagenes {
-        background: url("images/loquesea@2.png");
+    #D-imag {
+        width: 350px;
+        height: 40px;
+        margin: auto;
+        position: static;
     }
+
 }
-*/
