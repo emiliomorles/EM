@@ -59,7 +59,7 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 
 /*LOGO*/
 #logo {
-    width:8%;
+    width:200px;
     border-top: 3px;
 }
 
@@ -187,26 +187,10 @@ Media Queries de CSS3
         width:100%;
     }
 
-    }
-
-    #h1position {
-        float: left;
-    }
-
-    h1 {
-        color: #fff;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:1em;
-        text-shadow:4px 4px 4px rgb(0, 0, 0);
-        padding-top: 0px;
-        padding-left: 20px;
-
-    }
-
     #logo {
-        width:20px;
-        padding-left:10px;
-        padding-top:3px;
+        width:100px;
+        border-top: 3px;
+    }
 
     #menu {
         border-bottom:0;
@@ -269,9 +253,8 @@ Media Queries de CSS3
     }
 
     #logo {
-        width:4%;
-        padding-top:1px;
-        padding-bottom: 1px;
+        width:140px;
+        border-top: 3px;
     }
 
     #menu {
@@ -318,8 +301,8 @@ Media Queries de CSS3
     }
 
     #logo {
-        width:8%;
-        padding-top:5px;
+        width:160px;
+        border-top: 3px;
     }
 
     #col-1, #col-2 {
