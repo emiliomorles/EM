@@ -2,45 +2,124 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <link rel="favicon.ico" type="image/png" href="ftp://u307955282@ftp.emiliomorles.16mb.com/public_html/favicon.ico" />
-        <title>Emilio Morles - Curriculo</title>
+        <title>Curriculo - Emilio Morles</title>
+        <meta name="description" content="Curriculo de Emilio Morles">
+        <meta name="keywords" content="Curriculo, Conocimientos, Trabajos, Emilio Morles, emiliomorles">
+        <meta name="author" content="Emilio Morles">
+        <link rel="icon" href="favivon.ico">
+
+        <!-- Viewport para dispositivos móviles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Hojas de estilo-->
+        <link rel="stylesheet" href="css/normalize.css" media="screen" type="text/css">
+        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+
+        <!--********************************************************************************************************
+        *****JavaScript *****************************************************************************************-->
+        <script src="js/modernizr-2.8.3-respond-1.4.2.min"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="jquery-1.11.3.min.js"></script>
+
     </head>
+
     <body>
 
-        <a href="index.html">
-            <img id="homepage" src="images/homep.png" alt="Página_principal"/></a>
+        <header>
+            <div class="container">
+                <a href="index.html"><img id="logo" src="images/Logo+nombre.png" alt="logo"/></a>
+            </div>
+        </header>
 
-
-
-        <h1 id="titulocur">Currículo</h1>
-
-        <fieldset class="fieldset2">
-            <ul>
-                <li><strong>Titulo de licenciado en educación (Mención Inglés).</strong> Universidad de Carabobo - Facultad de Educación. 2005.</li>
-                <li><strong>Curso de Pensamiento científico.</strong> Coursera - Universidad Nacional Autónoma de México / Julio 2015. <a href="https://www.coursera.org/accomplishments/"><em>Link de verificación</em></a></li>
-                <li><strong>Curso de Introducción al Desarrollo Web: HTML y CSS.</strong> Activate con Google - Universidad de Alicante. 100% completado / Noviembre 2015. <a href="https://sites.google.com/site/ideswebactivate/home"><em>Link de verificación</em></a></li>
-                <li><strong>Curso de Programación de Apps Móviles.</strong> Activate con Google - Universidad Complutense de Madrid. 100% completado / Diciembre 2015. <a href="https://sites.google.com/site/moocappsmoviles/"><em>Link de verificación</em></a></li>
-                <li><strong>Diseño Web Responsive con HTML5 y CSS3.</strong> e-SandraEDU. 100% Completado / 3 Diciembre 2015.</li>
-                <li><strong>Curso HTML Fundamentals.</strong> Sololearn.com. 100% Completado / 28 Julio 2015.</li>
-                <!-- <a href="#"><em>Link de verificación</em></a> -->
-                <li><strong>Curso CSS Fundamentals.</strong> Sololearn.com. 100% Completado / 19 Agosto 2015.</li>
-                <!-- <a href="#"><em>Link de verificación</em></a> -->
-                <li><strong>Curso CSS.</strong> Código Facilito. 100% Completado / Agosto 2015.</li>
-                <li><strong>Curso HTML5.</strong> Código Facilito. 83% Completado.</li>
-                <li><strong>Curso Python.</strong> Código Facilito. 40% Completado.</li>
-                <li><strong>Curso Python.</strong> Codecademy.com. 14% Completado.</li>
-                <li><strong>Curso de Matemáticas.</strong> KhanAcademy.com. Progreso 23%. <a href="https://es.khanacademy.org/profile/EmilioMorles/vital-statistics"><em>Link de verificación</em></a></li>
+        <!-- MENU DE NAVEGACION -->
+        <nav id="menu">
+            <ul class="clearfix container">
+                <li><a href="index.html" id="Inicio">Inicio</a></li>
+                <li><a href="https://github.com/emiliomorles">Github</a></li>
+                <li><a href="http://emiliomorles.deviantart.com/gallery/" id="Galería_en_deviantart">Arte</a></li>
+                <li><a href="https://www.facebook.com/Profemiliomorles3D" id="Facebook">Facebook</a></li>
+                <li><a href="https://twitter.com/Emilio_Morles" id="Twitter">Twitter</a></li>
+                <li><a href="https://www.youtube.com/user/Profemiliomorles" id="Canal_Personal">Youtube</a></li>
             </ul>
+            <a href="#" id="pull">Menú</a>
+        </nav>
+
+        <!-- Menu de navegacion responsive de tres rayas en vista CELULARES PEQUENOS-->
+        <script>
+            $(function() {
+                var pull    =$('#pull');
+                    menu    =$('nav ul');
+                    menuHeight = menu.height();
+                $(pull).on('click', function (e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                });
+                $(window).resize(function (){
+                    var w = $(window).width();
+                    if(w > 320 && menu.is(':hidden')) {
+                        menu.removeAttr('style');
+                    }
+                });
+            });
+        </script>
 
 
-        <ul>
-            <li>
-            <strong>Activista en The Venus Project.</strong> Coordinador Nacional en Venezuela. <a href="https://www.thevenusproject.com/es/get-involved/connect-with-local-supporters"><em>Link de verificación</em></a>
-            </li>
-        </ul>
-        </fieldset>
+        <!-- Articulos -->
+        <div class="container">
 
+            <h1 id="titulocur">Currículo</h1>
+            <br>
+
+            <fieldset class="fieldset2">
+                <ul>
+                    <li><strong>Titulo de licenciado en educación (Mención Inglés).</strong> Universidad de Carabobo - Facultad de Educación. 2005.</li>
+                    <li><strong>Curso de Pensamiento científico.</strong> Coursera - Universidad Nacional Autónoma de México / Julio 2015. <a href="https://www.coursera.org/accomplishments/"><em>Link de verificación</em></a></li>
+                    <li><strong>Curso de Introducción al Desarrollo Web: HTML y CSS.</strong> Activate con Google - Universidad de Alicante. 100% completado / Noviembre 2015. <a href="https://sites.google.com/site/ideswebactivate/home"><em>Link de verificación</em></a></li>
+                    <li><strong>Curso de Programación de Apps Móviles.</strong> Activate con Google - Universidad Complutense de Madrid. 100% completado / Diciembre 2015. <a href="https://sites.google.com/site/moocappsmoviles/"><em>Link de verificación</em></a></li>
+                    <li><strong>Diseño Web Responsive con HTML5 y CSS3.</strong> e-SandraEDU. 100% Completado / 3 Diciembre 2015.</li>
+                    <li><strong>Curso HTML Fundamentals.</strong> Sololearn.com. 100% Completado / 28 Julio 2015.</li>
+                    <!-- <a href="#"><em>Link de verificación</em></a> -->
+                    <li><strong>Curso CSS Fundamentals.</strong> Sololearn.com. 100% Completado / 19 Agosto 2015.</li>
+                    <!-- <a href="#"><em>Link de verificación</em></a> -->
+                    <li><strong>Curso CSS.</strong> Código Facilito. 100% Completado / Agosto 2015.</li>
+                    <li><strong>Curso HTML5.</strong> Código Facilito. 83% Completado.</li>
+                    <li><strong>Curso Python.</strong> Código Facilito. 40% Completado.</li>
+                    <li><strong>Curso Python.</strong> Codecademy.com. 14% Completado.</li>
+                    <li><strong>Curso de Matemáticas.</strong> KhanAcademy.com. Progreso 23%. <a href="https://es.khanacademy.org/profile/EmilioMorles/vital-statistics"><em>Link de verificación</em></a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                    <strong>Conocimiento avanzado en:</strong>
+                        <ul>
+                            <li><strong>Sony Vegas</strong> (Editor de videos)</li>
+                            <li><strong>Gimp</strong> (Editor de imagenes)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <ul>
+                    <li>
+                    <strong>Conocimiento medio en:</strong>
+                        <ul>
+                            <li><strong>Autodesk 3ds Max</strong> (Gráficos y animación 3D)</li>
+                            <li><strong>AutoCAD</strong> (dibujo 2D y modelado 3D)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                    <strong>Activista en The Venus Project.</strong> Coordinador Nacional en Venezuela. <a href="https://www.thevenusproject.com/es/get-involved/connect-with-local-supporters"><em>Link de verificación</em></a>
+                    </li>
+                </ul>
+            </fieldset>
+
+        </div>
+
+        <!-- FOTTER -->
+        <footer>&copy; 2016 Emilio Morles</footer>
 
     </body>
 </html>
