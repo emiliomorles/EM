@@ -1,7 +1,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size:1em;
-    background-color: rgb(204, 204, 204)
+    background-color: rgb(255, 255, 255);
 }
 
 img, video, object, embed {
@@ -9,7 +9,7 @@ img, video, object, embed {
 }
 
 h1 {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family:Arial, Helvetica, sans-serif;
     font-size:1.5em;
     text-shadow:4px 4px 4px rgb(0, 0, 0);
@@ -49,8 +49,8 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     border-top: 3px;
 }
 
-a:hover {
-    background-color: rgb(56, 124, 59)
+#logo:hover {
+    opacity: 0.8;
 }
 
 /*Menu de navegacion*/
@@ -138,7 +138,7 @@ a:hover {
 #col-1 {
     width: 50%;
     float: left;
-    background-color: #ffffff;
+    background-color: rgb(126, 126, 126);
 }
 
 #col-2 {
