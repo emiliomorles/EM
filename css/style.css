@@ -15,8 +15,25 @@ h1 {
     text-shadow:4px 4px 4px rgb(158, 158, 158);
     padding-top: 40px;
     text-align: center;
-
 }
+
+a:link {
+    color: rgb(0, 111, 213);
+}
+
+a:hover {
+    color: rgb(5, 81, 250);
+    font-weight: bolder;
+}
+
+a:visited {
+    color: rgb(1, 98, 22);
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+}
+
 
 /*ClearFix*/
 .clearfix:before, .clearfix:after {
@@ -53,11 +70,12 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     opacity: 0.8;
 }
 
+
 /*Menu de navegacion*/
 #menu {
     height: 40px;
     width: 100%;
-    background-color: rgb(56, 124, 59);
+    background-color: rgb(158, 158, 158);
     font-weight: bold;
     border-bottom: 7px solid rgb(0, 0, 0);
 }
@@ -71,11 +89,11 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 #menu li {
     display: inline;
     float: left;
-    background-color: rgb(56, 124, 59);
+    background-color: rgb(158, 158, 158);
 }
 
 #menu a {
-    border-right: 1px solid rgb(87, 105, 121);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
     color: rgb(255, 255, 255);
     display: inline-block;
     width: 100px;
@@ -135,20 +153,21 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     text-indent: 35px;
 }
 
+#col-1, #col-2 {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
 #col-1 {
-    width: 50%;
+    width: 45%;
     float: left;
-    background-color: rgb(126, 126, 126);
+    background-color: rgb(158, 158, 158);
 }
 
 #col-2 {
-    width: 40%;
+    width: 45%;
     float: left;
-    background-color: rgb(56, 124, 59);
-}
-
-#col-1, #col-2 {
-    padding: 15px;
+    background-color: rgb(0, 0, 0);
 }
 
 /*Foter*/
@@ -190,7 +209,7 @@ Media Queries de CSS3
 
     #menu a#pull {
         display:block;
-        background-color:rgb(40, 55, 68);
+        background-color:rgb(158, 158, 158);
         width:100%;
         position:relative;
         text-align:left;
