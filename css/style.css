@@ -59,7 +59,7 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     width: 100%;
     background-color: rgb(56, 124, 59);
     font-weight: bold;
-    border-bottom: 7px solid #000000;
+    border-bottom: 7px solid rgb(0, 0, 0);
 }
 
 #menu ul {
@@ -75,14 +75,14 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 #menu a {
-    border-right: 1px solid #576979;
-    color: #fff;
+    border-right: 1px solid rgb(87, 105, 121);
+    color: rgb(255, 255, 255);
     display: inline-block;
     width: 100px;
     text-align: center;
     text-decoration: none;
     line-height: 40px;
-    text-shadow: 1px 1px 0px #283744;
+    text-shadow: 1px 1px 0px rgb(40, 55, 68);
     box-sizing: border-box;
     /*En este caso como el ancho es de 600px y yo tengo 6 botones cada uno de 100px mas un border-right de 1px
     entonces eso hace que se pase del limite (606 es mas del 100%). Solucion es bajar a 99pix los botones o
@@ -98,7 +98,7 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 #menu a:hover, #menu a:active {
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
 }
 
 #menu a#pull {
@@ -154,14 +154,14 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 /*Foter*/
 footer {
     height: 40px;
-    background-color: #000000;
-    margin-top: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 80px;
     color: rgb(255, 255, 255);
-    font-weight: 800;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 1.5em;
     letter-spacing: 2px;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 /******************************************************************************************************************************
@@ -190,7 +190,7 @@ Media Queries de CSS3
 
     #menu a#pull {
         display:block;
-        background-color:#283744;
+        background-color:rgb(40, 55, 68);
         width:100%;
         position:relative;
         text-align:left;
@@ -260,8 +260,8 @@ Media Queries de CSS3
     }
 
     #menu a {
-        border-bottom:1px solid #576979;
-        border-right:1px solid #576979;
+        border-bottom:1px solid rgb(87, 105, 121);
+        border-right:1px solid rgb(87, 105, 121);
         text-align:left;
         width:100%;
         text-indent:25px;
