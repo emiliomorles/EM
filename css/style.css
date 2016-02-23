@@ -124,15 +124,19 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 /*Imagenes de menu*/
-#Imamenu {
+.Imamenu {
     background-color: rgb(124, 122, 122);
     width: 100%;
     height: auto;
 }
 
-.ima {
+#ima {
     width: 100%;
     height: auto;
+}
+
+#ima:hover {
+    opacity: 0.95;
 }
 
 #redes:hover {
