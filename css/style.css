@@ -83,7 +83,7 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 #menu ul {
     padding: 0;
     height: 40px;
-    width: 700px;
+    width: 400px;
 }
 
 #menu li {
@@ -133,6 +133,11 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 .ima {
     width: 100%;
     height: auto;
+}
+
+#redes:hover {
+    opacity: 0.8;
+
 }
 
 /*imagenes*/
@@ -248,6 +253,18 @@ Media Queries de CSS3
         height: 40px;
         margin: auto;
         position: static;
+    }
+
+    #facebook {
+        width: 60px;
+    }
+
+    #twitter {
+        width: 60px;
+    }
+
+    #youtube {
+        width: 60px;
     }
 
 }
