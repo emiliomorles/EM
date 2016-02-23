@@ -123,13 +123,14 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     display: none;
 }
 
-/*slideshow*/
-#slideshow {
+/*Imagenes de menu*/
+#Imamenu {
+    background-color: rgb(124, 122, 122);
     width: 100%;
     height: auto;
 }
 
-.slide {
+.ima {
     width: 100%;
     height: auto;
 }
@@ -209,7 +210,7 @@ Media Queries de CSS3
 
     #menu a#pull {
         display:block;
-        background-color:rgb(158, 158, 158);
+        background-color:rgb(124, 122, 122);
         width:100%;
         position:relative;
         text-align:left;
