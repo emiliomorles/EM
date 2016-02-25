@@ -150,11 +150,11 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     height: 40px;
     margin: auto;
     position: static;
-    opacity: 0.7;
+    opacity: 1.0;
 }
 
 #D-imag:hover {
-    opacity: 1.0;
+    opacity: 0.95;
 }
 
 /*articulos*/
