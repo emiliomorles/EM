@@ -60,6 +60,13 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     line-height: 180%;
 }
 
+.bestbooks {
+    width: 100%;
+    background-color: rgb(158, 158, 158);
+    font-weight: bold;
+    text-align: center;
+}
+
 /*LOGO*/
 #logo {
     width:200px;

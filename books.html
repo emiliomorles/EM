@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Libros Recomendados - Emilio Morles</title>
+        <meta name="description" content="Libros Recomendados por Emilio Morles">
+        <meta name="keywords" content="Libros Recomendados por Emilio Morles, Libros que recomiendo, Mejores libros segun Emilio Morles, emiliomorles, Emilio Morles">
+        <meta name="author" content="Emilio Morles">
+        <link rel="icon" type="image/png" href="images/Favicon.png">
+
+        <!-- Viewport para dispositivos móviles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Hojas de estilo-->
+        <link rel="stylesheet" href="css/normalize.css" media="screen" type="text/css">
+        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+
+        <!--********************************************************************************************************
+        *****JavaScript *****************************************************************************************-->
+        <script src="js/modernizr-2.8.3-respond-1.4.2.min"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="jquery-1.11.3.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <a href="index.html"><img id="logo" src="images/Logo+nombre.png" alt="logo"/></a>
+            </div>
+        </header>
+
+        <!-- Imagen de menu -->
+        <section class="Imamenu">
+            <div>
+                <img id="ima" src="images/sliderimage4.jpg" alt="paisaje">
+            </div>
+        </section>
+
+        <!-- MENU DE NAVEGACION -->
+        <nav id="menu">
+            <ul class="clearfix container">
+                <li><a href="index.html" id="Inicio">Inicio</a></li>
+                <li><a href="curriculo.html" id="Curriculo">Currículo</a></li>
+                <li><a href="contacto.html" id="Contacto">Contacto</a></li>
+                <li><a href="https://github.com/emiliomorles" target="_blank">Github</a></li>
+            </ul>
+            <a href="#" id="pull">Menú</a>
+        </nav>
+
+        <!-- Menu de navegacion responsive de tres rayas en vista CELULARES PEQUENOS-->
+        <script>
+            $(function() {
+                var pull    =$('#pull');
+                    menu    =$('nav ul');
+                    menuHeight = menu.height();
+                $(pull).on('click', function (e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                });
+                $(window).resize(function (){
+                    var w = $(window).width();
+                    if(w > 320 && menu.is(':hidden')) {
+                        menu.removeAttr('style');
+                    }
+                });
+            });
+        </script>
+
+
+        <!-- Articulos -->
+        <div class="container">
+
+            <h1 id="titulocur">Mis 10 libros preferidos que puedo recomendarte</h1>
+            <br>
+
+            <fieldset class="fieldset2">
+                <ol>
+                        <li><strong>LO MEJOR QUE EL DINERO NO PUEDE COMPRAR <em>- MAS ALLÁ DE LA POLÍTICA, LA POBREZA Y LA GUERRA</em></strong> (The Best that Money Can't Buy: Beyond Politics, Poverty & War). <strong>Autor:</strong> Jacque Fresco</li>
+                        <li><strong>EL MUNDO Y SUS DEMONIOS <em>- LA CIENCIA COMO UNA LUZ EN LA OSCURIDAD</em></strong>(The Demon-Haunted World: Science as a Candle in the Dark). <strong>Autor:</strong> Carl Sagan</li>
+                        <li><strong>LA SOCIEDAD DE COSTE MARGINAL CERO <em>- EL INTERNET DE LAS COSAS, EL PROCOMÚN COLABORATIVO Y EL ECLIPSE DEL CAPITALISMO</em></strong> (The Zero Marginal Cost Society: The internet of things, the collaborative commons, and the eclipse of capitalism). <strong>Autor:</strong> Jeremy Rifkin</li>
+                        <li><strong>LA INTELIGENCIA EMOCIONAL <em>- POR QUÉ ES MÁS IMPORTANTE QUE EL COCIENTE INTELECTUAL</em></strong> (Emotional Intelligence: Why It Can Matter More Than IQ). <strong>Autor:</strong> Daniel Goleman</li>
+                        <li><strong>EL HOMBRE QUE CALCULABA</strong> (The Man Who Counted). <strong>Autor:</strong> Malba Tahan</li>
+                        <li><strong>DISEÑANDO EL FUTURO</strong> (Designing the Future). <strong>Autor:</strong> Jacque Fresco</li>
+                        <li><strong>EL ORIGEN DE LAS ESPECIES</strong> (On the Origin of Species). <strong>Autor:</strong> Charles Darwin</li>
+                        <li><strong>THE TYRANNY OF WORDS</strong>. <strong>Autor:</strong> Stuart Chase</li>
+                        <li><strong>LA DIVERSIDAD DE LA CIENCIA <em>- UNA VISIÓN PERSONAL DE LA BUSQUEDA DE DIOS</em></strong> (The Varieties of Scientific Experience: A Personal View of the Search for God). <strong>Autor:</strong> Carl Sagan</li>
+                        <li><strong>EL LENGUAJE DEL CUERPO <em>- CÓMO LEER EL PENSAMIENTO DE LOS DEMÁS A TRAVÉS DE SUS GESTOS</em></strong> (Body language). <strong>Autor:</strong> Allan Pease</li>
+                </ol>
+
+            </fieldset>
+
+            <h1><a href="#ima">Subir</a></h1>
+
+        </div>
+
+        <!-- FOTTER -->
+        <footer>&copy; 2016 Emilio Morles</footer>
+
+    </body>
+</html>
