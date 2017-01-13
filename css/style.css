@@ -152,6 +152,10 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 /*imagenes*/
+
+#op75:hover {
+    opacity: 0.75;
+}
 #D-imag {
     width: 400px;
     height: 40px;
@@ -194,7 +198,7 @@ footer {
     margin-top: 80px;
     color: rgb(255, 255, 255);
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1em;
     letter-spacing: 2px;
     text-align: center;
     padding: 20px;
